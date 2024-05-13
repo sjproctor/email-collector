@@ -1,6 +1,6 @@
 # Email Collector
 
-This is a React application in Vite used to collect emails for meetup communications.
+This is a React application in Vite used to collect emails for SD Ruby meetup communications.
 
 ### 🧱 Technologies and Versions
 
@@ -30,23 +30,22 @@ yarn prettier:format
 
 ### 🏃‍♀️ GitHub Actions
 
-GitHub Actions will run workflows for linting and testing on each push.
+GitHub Actions will run workflows for linting on each push.
 
 ### 🤝 Application Dependencies
 
 - [Tailwind](https://tailwindcss.com/)
-- [Flowbite React](https://flowbite-react.com/)
-- [React Router](https://reactrouter.com/en/main)
+- [Prettier for Tailwind](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 - [React Form Hook](https://react-hook-form.com/get-started)
+- [Emailjs](https://www.emailjs.com/)
 
 ### 🗄️ Useful Resources
 
 A few of the many resources that helped to build this application.
 
 - [Add Tailwind to React App with Yarn](https://dev.to/ashirbadgudu/set-up-tailwind-css-with-create-react-app-and-yarn-pio)
-- [Building A Custom Fetch Hook In React](https://blog.openreplay.com/building-a-custom-fetch-hook-in-react/)
-- [Prettier in GitHub Actions](https://akhilaariyachandra.com/blog/prettier-in-github-actions)
+- [Simple React Contact Form Without Back-End](https://medium.com/weekly-webtips/simple-react-contact-form-without-back-end-9fa06eff52d9)
 
 ### 🚀 Deployment
 
-- The application is deployed on Render.com and available at [this url](https://frontend-learn-practicum.onrender.com)
+- The application is deployed on Render.com and available at [this url](https://email-collector-9ra7.onrender.com)
