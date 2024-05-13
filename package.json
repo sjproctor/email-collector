@@ -7,11 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettier:format": "prettier --write \"**/*.{js,md,mdx,css}\"",
+    "prettier:check:ci": "prettier --check \"**/*.{js,md,mdx,css}\""
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
